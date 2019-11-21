@@ -1,0 +1,203 @@
+.cajaCabecera {
+    height: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    background: #F2F2F2;
+}
+
+#cajaLogo {
+    margin: 0.4%;
+    float: left;
+}
+
+.cajaTitulo {
+    height: 76%;
+    width: 84,5%;/*--CAMBIOOOOO*/
+    text-align: center; /*--CAMBIOOOOO*/
+    overflow: auto;
+    /*float: none;*/
+}
+
+/*.cajaEnlaces {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    border: 5px solid rgb(255, 0, 0);
+    border-style: dashed;
+    background: rgba(0, 255, 0, 0.5);
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}*/
+
+.claseUl {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #586B73;
+    position: sticky;
+    margin: auto;
+}
+.claseLi {
+    float: left;
+}
+.claseLiA {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 60px;
+    text-decoration: none;
+    background-color:#586B73;
+}
+
+.claseLiA:hover{
+    background-color: #F2F2F2;
+    color: black;
+}
+
+.cajasCentrales {  /**CAMBIAAAAAAAAAAAAAAAAAAAAR*/
+    height: 10%;
+    width: 31%;
+    border: 5px solid rgb(0, 0, 0);
+    background: #BFBFBF;
+    margin: 0.75%;
+    float: left;
+}
+
+.cajaTitulo2 {
+    width: 60%;/*--CAMBIOOOOO*/
+    font-size: 40px;
+    background: rgba(255, 0, 221);
+    margin: 1%;
+    float: left;
+}
+
+.opciones {
+    float: right;
+}
+
+.cajaInterna {
+    border: 5px solid #1C2526;
+    background: #586B73;
+    padding: 3%;
+    margin: 3%;
+    border-radius: 15px;
+    clear: both;
+}
+
+.cajaRedes { /*XXXXXXXXXXXXXXXXXXXX*/
+    width: 2%;
+    margin: 2%;
+    float: left;
+}
+
+.cajaFooter {
+    height: 60%;
+    width: 100%;
+    border: 5px solid black;
+    background: #BFBFBF;
+    padding: 1.5%;
+    margin-top: 1%;
+    float: left;
+}
+
+.like {
+margin-top: 5%;
+margin-right: 0%;
+margin-bottom: 0%;
+position: relative;
+margin-left: -5%;
+}
+
+.textoLike {
+visibility: hidden;
+background-color: #fffffffd;
+color: rgba(12, 8, 8, 0.89);
+text-align: center;
+white-space: nowrap;
+border-radius: 100%;
+padding-top: 30%;
+padding-bottom: 30%;
+padding-right: 100%;
+padding-left: 100%;
+position: absolute;
+bottom: 125%;
+margin-left: -230%;
+
+}
+
+.like:hover .textoLike {
+    visibility: visible;
+  }
+
+  .comentario {
+    margin-top: 5%;
+    float: left;
+    position: relative;
+    margin-left: 5%;
+  }
+
+ .textoComentario {
+    visibility: hidden;
+    background-color: #000000b4;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 100%;
+    padding-top: 60%;
+    padding-bottom: 60%;
+    padding-right: 100%;
+    padding-left: 100%;
+    position: absolute;
+    bottom: 125%;
+    margin-left: -310%;
+
+  }
+
+  .comentario:hover .textoComentario {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .compartir {
+    margin-top: 5%;
+    float: left;
+    position: relative;
+    margin-left: 5%;
+  }
+
+ .textoCompartir {
+    visibility: hidden;
+    background-color: #000000b4;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 400%;
+    padding-top: 60%;
+    padding-bottom: 60%;
+    padding-right: 120%;
+    padding-left: 120%;
+    position: absolute;
+    bottom: 125%;
+    margin-left: -400%;
+
+  }
+
+  .compartir:hover .textoCompartir {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .fecha {
+      float: right;
+      font-size: 15px;
+      margin-bottom: 10%;
+      margin-left: 20%;
+  }
+
+  @media only screen and (max-width: 480px){
+      .cajaInterna{
+          width: 12px;
+      }
+  }
+
+  
+  
